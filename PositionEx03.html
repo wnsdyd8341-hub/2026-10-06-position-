@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .Wrap{
+            width: 30%;
+            padding: 10px;
+            margin: 0px auto;
+            
+        }
+        .product{
+            width: 100%;
+            display: flex;
+            
+            flex-direction: column;
+            position: relative;
+            
+        }
+        .mart{
+            padding: 10px;
+        }
+        img{
+            display: block;
+        }
+        .cupon{
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            background-color: blueviolet;
+            color: #fff;
+            border-radius: 10%;
+        }
+        .hot{
+            position: absolute;
+            bottom: 55px;
+            left: 5px;
+            border-radius: 50%;
+            background-color: purple;
+            color: #fff;
+            padding: 5px 10px;
+        }
+        .product img{
+            width: 100%;
+        }
+        button{
+            border-radius: 10%;
+        }
+
+        .price{
+            display: flex;
+            gap: 5px;
+        }
+        .pr2 >p{
+            text-decoration: line-through;
+            color: #979797;
+        }
+        .price h4{
+            color: orange;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="Wrap">
+        <div class="product">
+            <img src="캡처.PNG" alt="">
+            <button class="mart">⚙ 담기</button>
+            <button class="cupon">+15% 쿠폰</button>
+            <button class="hot"><p>원더</p><p>핫딜</p></button>
+        </div>
+        <div class="pr2">
+            <h4>순살 가자미 스테이크 500g(냉동)</h4>
+            <p>12,900</p>
+
+            <div class="price">
+                <h4>23%</h4> <p>9,900원</p>
+            </div>
+            
+        </div>
+        <p>🕹 999+</p>
+
+
+
+
+    </div>
+</body>
+</html>

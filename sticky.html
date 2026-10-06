@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sticky</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        
+        #Wrap{
+            width: 70%;
+            margin: 0 auto;
+            
+        }
+        header{
+            background-color: rgb(88, 87, 87);
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        
+        }
+        nav{
+            background-color: #000;
+            padding: 10px 0px;
+            margin: 5px 0px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            position: sticky;
+            top: 0px;
+        }
+        nav a{
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+
+        }
+        main{
+            display: flex;
+            gap: 10px;
+            
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(3, 3, 3, 20%);
+            padding: 20px;
+            position: sticky;
+            top: 50px;
+            width: 25%;
+            align-items: center;
+            height: 200px
+        }
+        .contents{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px 0px;
+        }
+
+        .box{
+            width: 100%;
+            height: 500px;
+            padding: 20px;
+            background-color: #b3aeae;
+        }
+        footer{
+            background-color: aquamarine;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            padding: 20px;
+        }
+        .button{
+            position: fixed;
+            right: 30px;
+            bottom: 30px;
+            font-size: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="Wrap">
+        <header>
+            <h1>사이트 메인</h1>
+        </header>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">PRODUCT</a>
+            <a href="#">CONTACT</a>
+        </nav>
+        <main>
+            <div class="menu">
+                <h2>메인메뉴</h2>
+                    <p>내용</p>
+                    <p>내용</p>
+                    <p>내용</p>
+                    <p>내용</p>
+            </div>
+            <div class="contents">
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+                <div class="box">
+                    <h1>상세 제목</h1>
+                    <h3>내용</h3>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <h2>하단 영역</h2>
+        </footer>
+
+    </div>
+    <a href="#" class="button"><img src="캡처.PNG" alt=""></a>
+</body>
+</html>

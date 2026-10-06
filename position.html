@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Css</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        #box{
+            position: relative;
+            width: 330px;
+            height: 330px;
+        }
+        .boxtool{
+            display: flex;   
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #333;
+            background-color: aqua;
+            margin: 5px;
+        }
+        .box7{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            /* transform: translate(50% ,50%); */
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div class="boxtool">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+        </div>
+        <div class="boxtool">
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+            <div class="box box6"></div>
+        </div>
+        <div class="boxtool">
+            <div class="box box7"></div>
+            <div class="box box8"></div>
+            <div class="box box9"></div>
+        </div>
+    </div>
+</body>
+</html>

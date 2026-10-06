@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .box{
+            background-color: rgba(65, 159, 253, 0.4);
+            width: 100px;
+            height: 100px;
+            
+            
+        }
+        .area{
+            width: 30%;
+            /* aspect-ratio 주어진 숫자로 화면을 맞춤  / 높이값 맞출때 사용*/
+            aspect-ratio: 509/339;
+            background-image: url("images1/dog.jpg");
+            background-repeat: no-repeat;
+            background-size: 100%; 
+
+        }
+        .newarea{
+            width: 30%;
+            /* 영역크기 맞춤 */
+            aspect-ratio: 600/333; 
+            background-image: url("images1/dot.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">박스</div>
+    <div class="area"></div>
+    <div class="newarea"></div>
+</body>
+</html>

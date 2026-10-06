@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-index</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .box{
+            width: 100px;
+            height: 100px;
+            position:absolute;
+            z-index: auto;
+            margin: 10px;
+        }
+        .box1{
+            background-color: red;
+            z-index: 1;
+            
+        
+        }
+        .box2{
+            background-color: blue;
+            z-index: 3;
+            top: 20px;
+            left: 20px;
+        }
+        .box3{
+            background-color: yellow;
+            z-index: 2;
+            top: 40px;
+            left: 40px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="box box1">1번</div>
+    <div class="box box2">2번</div>
+    <div class="box box3">3번</div>
+
+</body>
+</html>

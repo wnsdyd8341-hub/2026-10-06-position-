@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.area{
+    width: 100%;
+    height: 1000px;
+    background-color: aqua;
+}
+.area1{
+    background: url("./images1/images/attachment/bg1.jpg") no-repeat;
+    background-size: cover;
+}
+.bg2{
+    background: url("images1/images/attachment/bg2.jpg") no-repeat;
+    /* background-attachment : fixed 이미지 뒷배경에 고정 */
+    background-attachment: fixed;
+}
+.bg3{
+    background: url("images1/images/attachment/bg3.jpg") no-repeat;
+    background-size: cover;
+}
+.bg4{
+    background: url("images1/images/attachment/bg4.jpg") no-repeat;
+    background-size: cover;
+}
+.bg5{
+    background: url("./images1/images/attachment/bg5.jpg") no-repeat;
+    background-size: cover;
+}
+.bg6{
+    background: url("./images1/images/dot.png") no-repeat;
+    background-size: cover;
+}
